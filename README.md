@@ -95,8 +95,3 @@ Contributing
 - Add new animation functions to animatefn.py and unit-test them using a mock controller that records commands.
 - Keep low-level motion logic in operationfn.py; avoid duplicating interpolation/limit code.
 - Use playground.py for manual verification and then integrate into proton.py for production behavior.
-
-If you'd like, I can:
-- Open a PR that adds this README.md into servow/ for you.
-- Generate a starter keys.env.example with safe placeholder values.
-- Inspect the actual contents of proton.py, operationfn.py, and animatefn.py and produce a more detailed README with concrete function names and examples.
